@@ -1,27 +1,62 @@
 # MyStore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
+MyStore is an e-commerce web application built with Angular. It allows users to browse products, add them to a shopping cart, and proceed to checkout.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Code scaffolding
+## Introduction
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+MyStore is a single-page application that showcases your skills in Angular. It provides a dynamic and interactive user experience similar to real-world e-commerce websites.
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Product List Page**: View a list of available products.
+- **Product Details Page**: View detailed information about a selected product.
+- **Shopping Cart**: Add products to the cart and view the cart contents.
+- **Checkout Form**: Enter user information and payment details.
+- **Order Confirmation Page**: View the order summary after completing the checkout process.
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Prerequisites
 
-## Running end-to-end tests
+Ensure you have the following installed:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Node.js
+- npm (Node Package Manager)
+- Angular CLI
 
-## Further help
+### Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clone the repository.
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   ng serve
+   ```
+
+4. Open your browser and navigate to `http://localhost:4200`.
+
+## Usage
+
+- Browse the product list on the main page.
+- Click on a product to view its details.
+- Add products to the shopping cart.
+- Proceed to checkout by clicking on the cart icon.
+- Fill in the checkout form and submit the order.
+- View the order confirmation page.
